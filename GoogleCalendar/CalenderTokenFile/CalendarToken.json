@@ -1,0 +1,12 @@
+{
+  "web": {
+    "client_id": "148164231900-s9pnj72hk52qvvqh3l5uidgkqre2tbgb.apps.googleusercontent.com",
+    "project_id": "calenderbysamoul",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_secret": "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",
+    "redirect_uris": [ "http://localhost:7243/authorize/", "http://localhost/authorize/", "http://127.0.0.1/authorize/", "http://localhost:56218/authorize/", "http://localhost:56266/authorize/", "http://127.0.0.1:56421/authorize/" ],
+    "javascript_origins": [ "https://localhost:7243", "https://localhost:44390" ]
+  }
+}
