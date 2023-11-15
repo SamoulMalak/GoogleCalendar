@@ -37,7 +37,7 @@ namespace GoogleCalendar.API.Helper
             // define request
             Event eventCalendar = new()
             {
-                
+                 
                 Summary = request.Summary,
                 Location = request.Location,
                 Start = new EventDateTime

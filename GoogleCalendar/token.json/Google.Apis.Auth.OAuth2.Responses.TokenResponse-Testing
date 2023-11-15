@@ -1,9 +1,0 @@
-{
-  "access_token": "ya29.a0AfB_byAzhsrbCU1eyxcuFp0plAj0Nu9E5QQODzTwfTsbtIL3zVVTndtPMqEhF8GWUQ6_1jqG5svQwMTR6-GDNAadrB_6FqMoMbKHNUMZXnAzTy9acz1aW2QdNZKy5AvfPIsVDvcYbqqHxij0nU_wY3zWtHXPjHHvk0diaCgYKAZoSARMSFQHGX2MiGKPyYyN54wuBBaCQflPG7Q0171",
-  "token_type": "Bearer",
-  "expires_in": 3599,
-  "refresh_token": "1//03uIYSNhdX-Y5CgYIARAAGAMSNwF-L9Ir689F_mkyfVtMN9pbB7VHA-FcB1hcOn8avkFwf5elZGKCWAsa0ZTBymcnu_5rf5nu08c",
-  "scope": "https://www.googleapis.com/auth/calendar",
-  "Issued": "2023-11-14T10:41:14.189+02:00",
-  "IssuedUtc": "2023-11-14T08:41:14.189Z"
-}

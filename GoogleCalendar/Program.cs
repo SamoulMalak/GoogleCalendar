@@ -26,36 +26,6 @@ namespace GoogleCalendar
 
 
 
-            //var serviceProvider = builder.Services.BuildServiceProvider();
-            //var httpClientFactory = serviceProvider.GetRequiredService<IHttpClientFactory>();
-            //var calendarService = new CalendarService(new BaseClientService.Initializer
-            //{
-            //    HttpClientInitializer =  GoogleCredential.GetApplicationDefault(),
-            //    HttpClientFactory = (Google.Apis.Http.IHttpClientFactory)httpClientFactory.CreateClient(),
-            //    ApplicationName = "Calender"
-            //});
-            //.AddAuthentication(o =>
-            //{
-            //    o.DefaultScheme = GoogleOpenIdConnectDefaults.AuthenticationScheme;
-            //    o.DefaultChallengeScheme = GoogleOpenIdConnectDefaults.AuthenticationScheme;
-            //})
-            //.AddGoogleOpenIdConnect(options =>
-            //{
-            //    options.ClientId = 
-            //    options.ClientSecret = 
-
-            //});
-            builder.Services.AddAuthentication(options =>
-            {
-                options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
-                options.DefaultChallengeScheme = GoogleDefaults.AuthenticationScheme;
-            })
-            .AddCookie()
-            .AddGoogle(options =>
-            {
-                options.ClientId = "1072774439376-m2hc8qk9aaeosk0o70tl91q5e4a2ld42.apps.googleusercontent.com";
-                options.ClientSecret = "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";
-            });
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
